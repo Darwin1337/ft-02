@@ -1,3 +1,2 @@
 # tsiw-tw
- Cadeira de Tecnologias Web  
- Resolução da ficha 02
+ Cadeira de Tecnologias Web
