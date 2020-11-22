@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 02</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resolução do exercício 02">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Diogo Borges">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <header>
+        <h1>Registration Form</h1>
+        <form action="form.html" method="POST">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" pattern="[A-Z][a-z]+\s[A-Z][a-z]+" required>
+                </div>
+                <div>
+                    <label for="member">Member</label>
+                    <input type="radio" id="member" name="membership">
+                    <label for="non-member">Non-Member</label>
+                    <input type="radio" id="non-member" name="membership">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Reservation Info</legend>
+                <div>
+                    <label for="facility">Facility</label>
+                    <select name="facility" id="facility">
+                        <option value="badminton">Badminton</option>
+                        <option value="squash">Squash</option>
+                        <option value="racquetgball">Racquetgball</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="data_hora">Date and time</label>
+                    <input type="datetime-local" id="data_hora" name="data_hora">
+                </div>
+                <div>
+                    <label for="agreement">I agree to the club's reservation policy</label>
+                    <input type="checkbox" id="agreement" name="agreement">
+                </div>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </header>
+</body>
+</html>
