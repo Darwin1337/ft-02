@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Resolução do exercício 03">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Diogo Borges">
+  <title>Exercício 03</title>
+</head>
+
+<body>
+    <form action="index.html" method="POST">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <fieldset>
+                <legend>Idade</legend>
+                <label for="0to18">&lt;18</label>
+                <input type="radio" name="idade" id="0to18">
+                <label for="19to35">19-35</label>
+                <input type="radio" name="idade" id="19to35">
+                <label for="36to48">36-48</label>
+                <input type="radio" name="idade" id="36to48">
+                <label for="49orHigher">&lt;49</label>
+                <input type="radio" name="idade" id="49orHigher">
+            </fieldset>
+        </div>
+        <div>
+            <label for="profissao">Profissão:</label>
+            <input type="text" name="profissao" id="profissao">
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">
+                <option value="Portual">Portugal</option>
+                <option value="França">França</option>
+                <option value="Espanha">Espanha</option>
+                <option value="Inglaterra">Inglaterra</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Interesses</legend>
+                <label for="photograpy">Fotografia</label>
+                <input type="checkbox" name="interesses" id="photograpy">
+                <label for="music">Música</label>
+                <input type="checkbox" name="interesses" id="music">
+                <label for="cinema">Cinema</label>
+                <input type="checkbox" name="interesses" id="cinema">
+                <label for="computers">Computadores</label>
+                <input type="checkbox" name="interesses" id="computers">
+            </fieldset>
+        </div>
+        <div>
+            <label for="how">Como nos encontrou?</label>
+            <textarea name="how" id="how" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
