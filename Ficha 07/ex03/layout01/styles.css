@@ -1,0 +1,51 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  display: flex;
+  flex-grow: 1;
+}
+
+#main>article {
+  order: 2;
+  flex: 4;
+  flex-direction: row;
+}
+
+#main>nav,
+#main>aside {
+  flex-basis: 20vw;
+}
+
+#main>nav {
+  order: 1;
+  flex: 1;
+  background: lightgray;
+}
+
+#main>aside {
+  order: 3;
+  flex: 1;
+  background: lightgreen;
+}
+
+header,
+footer {
+  background: lightblue;
+  height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1em;
+}

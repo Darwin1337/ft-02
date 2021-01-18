@@ -1,0 +1,51 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  display: flex;
+}
+
+.col-1 {
+  background: lightgray;
+  flex: 1;
+}
+
+.col-2 {
+  flex: 5;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content>article {
+  min-height: 60vh;
+  flex: 4;
+}
+
+.content>aside {
+  background: lightgreen;
+  flex: 1;
+}
+
+header,
+footer {
+  background: lightblue;
+  height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1em;
+}

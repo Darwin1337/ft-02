@@ -1,0 +1,32 @@
+#green {
+  display: flex;
+  flex-direction: column;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+}
+
+.all > div {
+  flex-grow: 1;
+}
+
+.others {
+  display: flex;
+  flex-direction: row;
+}
+
+.others2 {
+  display: flex;
+  flex-direction: column;
+}
+.others > section {
+  flex-grow: 1;
+  order: 1;
+}
+
+.others2 > section {
+  flex-grow:  1;
+  order: 2;
+}

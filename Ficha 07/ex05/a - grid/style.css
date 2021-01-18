@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#green {
+  grid-column: 1 / 4;
+}
+
+#yellow {
+  grid-row: 2 / 4;
+  order: 1;
+}
+
+#red {
+  grid-row: 2 / 4;
+  grid-column: 3 / 4;
+}
